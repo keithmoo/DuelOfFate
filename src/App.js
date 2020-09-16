@@ -71,7 +71,9 @@ function App() {
         So, you know I used to be a magical scientist working for Stills Co., right?  Well, look 
         at this!
       </p>
+      <div className='imageAndStuff'>
       <img src={MagicalScientist} alt='MagicalScientist.png' />
+      <div className='bundle'>
       <p>Gahahahah!  I looked so dorky back then.  A different time...anyway, science is all about 
         grabbing reality by the horns and twisting it until the numbers add up!  Sometimes, you really 
         just gotta smash a square peg through a round hole!  Use this with Catapult Turtle to pay (almost) all 
@@ -88,12 +90,14 @@ function App() {
       <p>But go fast, ya dig?  Even a small scratch on you and the price my research cost will be 
         too much for you to handle!  HA!  I always knew you were just a shrimp!
       </p>
+      </div>
+      </div>
       <p>
         And I don't wanna see you cryin' if you lose to this guy!  He's a veteran and your just an 
         amateur!  Heh, I'm probably the only one that can beat him, so don't be too down on yourself.
       </p>
       </div>
-      <div>
+      <div className='mastered'>
         You mastered the Jecht Shot!  That Longsword he gave you isn't useless anymore!
         When playing it, you can transform it into the Jecht Shot simply by believing in yourself 
         and being loud about your intentions!

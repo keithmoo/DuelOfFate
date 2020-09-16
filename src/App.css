@@ -1,7 +1,14 @@
+body {
+  background-color: rgb(75, 78, 92);
+}
+
 .Jecht {
-  border: 2px dashed black;
+  border: 2px dashed whitesmoke;
   width: 20vw;
   text-align: center;
+  font-size: 1.25rem;
+  color: gainsboro;
+  border-radius: 3px;
 }
 
 #a0 {
@@ -37,4 +44,26 @@
 #a6 {
   margin-top: 70vh;
   margin-left: 7vw;
+}
+
+.final-wrapper {
+  font-size: 1.25rem;
+  background-color: lightgray;
+  padding: 2%;
+  height: 100%;
+}
+
+.mastered {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.imageAndStuff {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.bundle {
+  padding-left: 1rem;
 }
